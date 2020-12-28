@@ -1,0 +1,66 @@
+{
+    "bot_setup": {
+        "prefix": "*",
+        "token": "",
+        "copyright": "© 2020 Joker Leaks",
+        "bot_status": "online",
+        "bot_game_type": "WATCHING",
+        "main_embed_color": "#F0FF00",
+        "debug_mode": true
+    },
+    
+
+
+    "module_toggles": {
+        "welcome_leave_channel":  true,
+        "join_role": true,
+        "logs": false,
+        "moderation_commands": false,
+        "mod_logs": false,
+        "fun_commands": false,
+        "utility_commands": false,
+        "ticket_system": true,
+        "filter_lang_links": false,
+        "member_count_channel": false
+    },
+
+    "channel_setup": {
+        "welcome_channel": "751458180587978853",
+        "general_logs_channel": "756208769054146640",
+	"logger_delete_edit": "756208769054146640",
+        "kick_logs_channel": "756208769054146640",
+        "ban_logs_channel": "756208769054146640",
+        "warning_logs_channel": "756208769054146640",
+        "mute_logs_channel": "756208769054146640",
+        "command_logs_channel": ""
+        },
+
+    "join_roles": {
+        "role": "755750477160906852"
+    },
+
+    "ticket_system": {
+        "support_role": "",  
+        "auto_reply": true,
+        "auto_reply_message": "Je ticket is aangemaakt. Wij gaan je zo snel mogelijk helpen. \n Your ticket has been created. We will help you as soon as possible"
+    },
+
+    "moderation_module": {
+        "mute_role": "Muted",
+        "DM_kicked_user": true,
+        "DM_banned_user": true,
+        "DM_muted_user": true,
+        "DM_warned_user": true
+    },
+
+    "filter_module": {
+        "language_bypass_role": "740943553047429242",
+        "link_bypass_role": "740943553047429242",
+        "filter_links": ["bing.com", "discordapp.com", "discord.gg"],
+        "filter_words": ["fuck", "kanker", "hoer", "slet", "hoertje", "sletje", "kut", "tyfus", "scammer", "skemmer"]
+    },
+
+    "member_count_module": {
+        "member_count_channel": "705158250659708939"
+    }
+}
